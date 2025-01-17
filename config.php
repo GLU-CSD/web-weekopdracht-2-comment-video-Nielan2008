@@ -13,8 +13,8 @@ session_start();
  * Voor de Windows gebruikers;
  */
 $dbhost = "localhost";
-$dbuser = "nielan";
-$dbpass = "nielan";
+$dbuser = "root";
+$dbpass = "";
 $dbname = "youtube-clone";
 
 $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
